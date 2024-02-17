@@ -3,6 +3,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 
 import { Tooltip as ReactTooltip } from 'react-tooltip';
 
+
 const WhatsAppButton = ({ phoneNumber, message }) => {
     const handleWhatsAppClick = () => {
       const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
